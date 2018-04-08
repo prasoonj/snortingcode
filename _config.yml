@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/snortingcode"
-url: "https://github.com/prasoonj/snortingcode.git"
+baseurl: ""
+url: "https://github.com/prasoonj/snortingcode"
 title: SnortingCode # site's title
 description: "Random Tech Stuff" # used by search engines
 
