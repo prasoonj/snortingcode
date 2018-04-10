@@ -1,21 +1,21 @@
 # SITE CONFIGURATION
 baseurl: "/snortingcode"
 url: "https://github.com/prasoonj/"
-title: SnortingCode # site's title
+title: \>>snortingcode # site's title
 description: "Random Tech Stuff" # used by search engines
 
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: SnortingCode # blog's title
+  title: snortingcode # blog's title
   avatar: assets/img/triangle.svg
   favicon: assets/favicon.ico
   gravatar: # Email MD5 hash
 
   # Header and footer text
   header_text: > #two or three lines to describe your site
-     <p>Change header text in <code>_config.yml</code> <br> to update this feature.</p>
+     <p>-- My pet lizard thinks that I'm a big lizard <br><code>type Life a = Nothing | Code a</code></p>
   header_text_feature_image: assets/img/pexels/triangular.jpeg
   footer_text: >
    Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
@@ -29,7 +29,7 @@ theme_settings:
   facebook:
   flickr:
   gitlab:
-  github: "sylhare"
+  github: "prasoonj"
   google_plus:
   instagram:
   keybase:
