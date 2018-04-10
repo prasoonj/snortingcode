@@ -40,14 +40,14 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: # "twitter username"
+  twitter: prasoonj# "twitter username"
   vimeo:
   wordpress:
   youtube:
 
   # Scripts / Features
   google_analytics: # Tracking ID, e.g. "UA-000000-01"
-  disqus_shortname:
+  disqus_shortname: prasoonj
   katex: true # Enable if using math markup
   portfolio: true
   search: true
