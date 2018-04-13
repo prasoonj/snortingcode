@@ -19,3 +19,5 @@ _development_tool/*
 Gemfile.lock
 *.gem
 
+# WIP Posts
+_posts/wip*
