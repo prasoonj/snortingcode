@@ -21,3 +21,6 @@ Gemfile.lock
 
 # WIP Posts
 _posts/wip*
+
+# Compiled classes from code
+code-samples/*.class
