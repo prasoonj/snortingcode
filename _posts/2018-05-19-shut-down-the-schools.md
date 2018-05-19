@@ -1,7 +1,7 @@
 ---
 layout: post
 title: If You Wish To Save Humanity, Shut Down All Schools!
-date: '2018-05-09T03:41:30+05:30'
+date: '2018-05-19T03:41:30+05:30'
 tags:
 - schools
 - learning
