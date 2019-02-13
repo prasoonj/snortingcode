@@ -26,27 +26,27 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-f3dafac09b3bf8d1cf3e.js"
+    "url": "webpack-runtime-e2fbc02420848e7f8ad7.js"
   },
   {
-    "url": "app-c8f763d16c8ef2b7f5bb.js"
+    "url": "app-8ab4cffe004882682eef.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-75ac8e86c1cf4c1e89e8.js"
   },
   {
     "url": "index.html",
-    "revision": "3f261a86f1144e581b9cbe33859910d7"
+    "revision": "81810c21cad12e2c39d92ff78f99be6f"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "2dfb11f4d47cfb1b0c7ee395a72c555e"
+    "revision": "6251958dea4d39ca6d3c887ab9acaca5"
   },
   {
     "url": "component---src-pages-index-jsx.69a945a11e23dfafac91.css"
   },
   {
-    "url": "2.e27118a4d1414124e626.css"
+    "url": "2.33aec6608a126ef65f48.css"
   },
   {
     "url": "0-67c09113654780576fac.js"
@@ -82,7 +82,7 @@ self.__precacheManifest = [
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/offline-plugin-app-shell-fallback/index.html", {
+workbox.routing.registerNavigationRoute("/snortingcode/offline-plugin-app-shell-fallback/index.html", {
   whitelist: [/^[^?]*([^.?]{5}|\.html)(\?.*)?$/],
   blacklist: [/\?(.+&)?no-cache=1$/],
 });
