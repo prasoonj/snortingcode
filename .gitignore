@@ -1,26 +1,15 @@
-# Idea files
-.idea/*
-
-# Mac files
-.DS_Store
-
-# Byte-compiled / optimized / DLL files
-*.manifest
-*.spec
-
-# Jekyll dev or build files
-_site/*
-_development_tool/*
-.sass-cache/*
-*.css.map
-*.scssc
-
-# Theme Gem files
-Gemfile.lock
-*.gem
-
 # WIP Posts
 _posts/wip*
 
 # Compiled classes from code
 code-samples/*.class
+
+node_modules/
+.cache/
+public/
+npm-debug.log
+.eslintcache
+.gatsby-context.js
+.idea
+gatsby-starter-lumen.iml
+
