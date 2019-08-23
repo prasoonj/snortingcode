@@ -49,11 +49,6 @@
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/pigunit/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/posts/state-surveillance-is-here-to-stay</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/posts/hadoop-installation-guide</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/posts/user-registration-problem-is-solved</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/slack/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/lazy-registration/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/signup/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/form/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/posts/guide-to-building-the-python-nest</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/python/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/virtualenv/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -169,6 +164,7 @@
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/lagom/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/posts/design-harmony</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/design/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/form/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/function/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/art/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/posts/shut-down-the-schools</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -212,6 +208,12 @@
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/elections/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/governance/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/india/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/posts/user-registration-problem-is-solved</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/slack/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/lazy-registration/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/signup/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/posts/online-communities-as-property/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/community/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/categories/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://prasoonj.github.io/snortingcode/snortingcode/tags/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
