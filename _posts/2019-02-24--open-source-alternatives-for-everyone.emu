@@ -1,0 +1,32 @@
+|> Metadata 
+    title = Open Source For Everyone
+    tags = "open source"
+    
+    
+Open Source software is the bedrock of the current technological revolution and our beloved information age. To give you an idea about the power and influence of Open Source in our lives, let me give you a few examples:
+- Microsoft paid **7.5 billion dollors** for GitHub, the most popular platform for managing Open Source code on the Internet.
+- If you eliminated Open Source software in its entirety, you would not have any information/communication that's operational. The whole world would break down. There is no other entity that can make such a claim.
+- If every Open Source developer was paid $1 for every piece of code that they check in ($1 per commit) and that money was given away, we would end poverty in the world!
+
+I can't wait to see the day when **Open Source software for governance** would become an election winning agenda in a powerful country of the world. Open Source governance software framework could completely change the way nations are thought about and governed. Imagine a 14 year old from Malaysia checking in code into the `human-rights` repository of Netherlands which gets approved by the body of core committers and becomes part of the way people in Europe interact! The idea of the Government as the most powerful goon, that has never been contested even in a (mostly) functional democracy, could be replaced by a Government that would not just have *transparency* as a goal but, as a fundamental truth. 
+
+While the governments of the world take their time to come to terms with the power of Open Source, here are some alternatives for your everyday Internet shenanigans from the world of Open Source (or as you would discover for youself soon - the world of **freedom** and beauty):
+
+>Replace
+
+**Gmail/Yahoo** by [**Disroot**]{link | url = https://disroot.org}
+
+**FaceBook** by [**Diaspora**]{link | url = https://diasporafoundation.org/}
+
+**Twitter** by [**Mastodon**]{link | url = https://joinmastodon.org/}
+
+**Skype** by [**Jitsi Meet**]{link | url = https://jitsi.org/jitsi-meet/}
+
+**Whatsapp** by [**Signal**]{link | url = https://signal.org/}
+
+All these come with pretty much the same functionality as their blood sucking cousin but, they give you:
+- Uncompromisable privacy
+- Absolute control over your own data
+- No hidden cost (that you pay with your soul or manipulation)
+
+You can find a ton of other alternatives for each of these and several other services on [Switching.Social]{link | url = https://switching.social}

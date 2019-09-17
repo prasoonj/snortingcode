@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>SnortingCode</title>
+        <link>https://example.com/posts</link>
+        <description>Random tech (and other) stuff</description>
+        <lastBuildDate>Tue, 17 Sep 2019 11:07:36 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>Elmstatic</generator>
+        <language>en</language>
+        <image>
+            <title>SnortingCode</title>
+            <url>https://example.com/img/logo.png</url>
+            <link>https://example.com/posts</link>
+        </image>
+        <copyright>Copyright: GPL</copyright>
+        <item>
+            <title><![CDATA[Tryst With IE10!]]></title>
+            <link>https://example.com/posts/2014-07-04-tryst-with-ie10</link>
+            <guid>https://example.com/posts/2014-07-04-tryst-with-ie10</guid>
+            <pubDate>Fri, 04 Jul 2014 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Valar Morghulis - A Shiny New World Of APIs]]></title>
+            <link>https://example.com/posts/2014-07-04-valar-morghulis-a-shiny-new-world-of-apis</link>
+            <guid>https://example.com/posts/2014-07-04-valar-morghulis-a-shiny-new-world-of-apis</guid>
+            <pubDate>Fri, 04 Jul 2014 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[My Own Cute Little Web-Server (May The Node(js) Be With You)]]></title>
+            <link>https://example.com/posts/2014-07-05-my-own-cute-little-web-server</link>
+            <guid>https://example.com/posts/2014-07-05-my-own-cute-little-web-server</guid>
+            <pubDate>Sat, 05 Jul 2014 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dumb Users vs Bad UX!]]></title>
+            <link>https://example.com/posts/2014-08-26-dumb-users-vs-bad-ux</link>
+            <guid>https://example.com/posts/2014-08-26-dumb-users-vs-bad-ux</guid>
+            <pubDate>Tue, 26 Aug 2014 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Instructions To Set Up GIT User]]></title>
+            <link>https://example.com/posts/2015-11-19-instructions-to-set-up-git-user</link>
+            <guid>https://example.com/posts/2015-11-19-instructions-to-set-up-git-user</guid>
+            <pubDate>Thu, 19 Nov 2015 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Open Source For Everyone]]></title>
+            <link>https://example.com/posts/2019-02-24--open-source-alternatives-for-everyone</link>
+            <guid>https://example.com/posts/2019-02-24--open-source-alternatives-for-everyone</guid>
+            <pubDate>Sun, 24 Feb 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Rediscovering India]]></title>
+            <link>https://example.com/posts/2019-03-30--rediscovering-india</link>
+            <guid>https://example.com/posts/2019-03-30--rediscovering-india</guid>
+            <pubDate>Sat, 30 Mar 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Framing The Debate Right]]></title>
+            <link>https://example.com/posts/2019-08-17--framing-the-debate-right</link>
+            <guid>https://example.com/posts/2019-08-17--framing-the-debate-right</guid>
+            <pubDate>Sat, 17 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[I Am The Admin Here (You are my bit*h!)]]></title>
+            <link>https://example.com/posts/2019-08-23-online-communities-as-property</link>
+            <guid>https://example.com/posts/2019-08-23-online-communities-as-property</guid>
+            <pubDate>Fri, 23 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+    </channel>
+</rss>
