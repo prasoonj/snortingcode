@@ -12,7 +12,7 @@ main =
     let
         postItem post =
             div []
-                [ a [ href ("/" ++ post.link) ] [ h2 [] [ text post.title ] ]
+                [ a [ href ("/snortingcode/" ++ post.link) ] [ h2 [] [ text post.title ] ]
                 , Post.metadataHtml post
                 ]
 

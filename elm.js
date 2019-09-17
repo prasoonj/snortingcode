@@ -5534,7 +5534,7 @@ var author$project$Page$footer = A2(
 			_List_fromArray(
 				[
 					elm$html$Html$Attributes$alt('Author\'s blog'),
-					elm$html$Html$Attributes$src('/img/logo_.png'),
+					elm$html$Html$Attributes$src('/snortingcode/img/logo_.png'),
 					A2(elm$html$Html$Attributes$attribute, 'style', 'float: left; padding-top: 7px'),
 					A2(elm$html$Html$Attributes$attribute, 'width', '75')
 				]),
@@ -5596,7 +5596,7 @@ var author$project$Page$header = _List_fromArray(
 				_List_fromArray(
 					[
 						elm$html$Html$Attributes$alt('Author\'s blog'),
-						elm$html$Html$Attributes$src('/img/logo_.png'),
+						elm$html$Html$Attributes$src('/snortingcode/img/logo_.png'),
 						A2(elm$html$Html$Attributes$attribute, 'width', '100')
 					]),
 				_List_Nil)
@@ -5623,7 +5623,7 @@ var author$project$Page$header = _List_fromArray(
 								elm$html$Html$a,
 								_List_fromArray(
 									[
-										elm$html$Html$Attributes$href('/posts')
+										elm$html$Html$Attributes$href('/snortingcode/posts')
 									]),
 								_List_fromArray(
 									[
@@ -5639,7 +5639,7 @@ var author$project$Page$header = _List_fromArray(
 								elm$html$Html$a,
 								_List_fromArray(
 									[
-										elm$html$Html$Attributes$href('/about')
+										elm$html$Html$Attributes$href('/snortingcode/about')
 									]),
 								_List_fromArray(
 									[
@@ -5655,7 +5655,7 @@ var author$project$Page$header = _List_fromArray(
 								elm$html$Html$a,
 								_List_fromArray(
 									[
-										elm$html$Html$Attributes$href('/contact')
+										elm$html$Html$Attributes$href('/snortingcode/contact')
 									]),
 								_List_fromArray(
 									[
@@ -9164,7 +9164,7 @@ var author$project$Page$layout = F2(
 									]),
 								contentHtml)),
 							author$project$Page$footer,
-							author$project$Elmstatic$stylesheet('/styles.css'),
+							author$project$Elmstatic$stylesheet('/snortingcode/styles.css'),
 							author$project$Styles$styles
 						])));
 		} else {
@@ -9174,7 +9174,7 @@ var author$project$Page$layout = F2(
 	});
 var author$project$Post$tagsToHtml = function (tags) {
 	var tagLink = function (tag) {
-		return '/tags/' + elm$core$String$toLower(tag);
+		return '/snortingcode/tags/' + elm$core$String$toLower(tag);
 	};
 	var linkify = function (tag) {
 		return A2(
@@ -9242,7 +9242,7 @@ var author$project$Posts$main = function () {
 					elm$html$Html$a,
 					_List_fromArray(
 						[
-							elm$html$Html$Attributes$href('/' + post.dv)
+							elm$html$Html$Attributes$href('/snortingcode/' + post.dv)
 						]),
 					_List_fromArray(
 						[

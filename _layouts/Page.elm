@@ -40,21 +40,21 @@ M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-
 header : List (Html Never)
 header =
     [ div [ class "header-logo" ]
-        [ img [ alt "Author's blog", src "/img/logo_.png", attribute "width" "100" ]
+        [ img [ alt "Author's blog", src "/snortingcode/img/logo_.png", attribute "width" "100" ]
             []
         ]
     , div [ class "navigation" ]
         [ ul []
             [ li []
-                [ a [ href "/posts" ]
+                [ a [ href "/snortingcode/posts" ]
                     [ text "Posts" ]
                 ]
             , li []
-                [ a [ href "/about" ]
+                [ a [ href "/snortingcode/about" ]
                     [ text "About" ]
                 ]
             , li []
-                [ a [ href "/contact" ]
+                [ a [ href "/snortingcode/contact" ]
                     [ text "Contact" ]
                 ]
             ]
@@ -67,7 +67,7 @@ footer =
     div [ class "footer" ]
         [ img
             [ alt "Author's blog"
-            , src "/img/logo_.png"
+            , src "/snortingcode/img/logo_.png"
             , attribute "style" "float: left; padding-top: 7px"
             , attribute "width" "75"
             ]
@@ -97,7 +97,7 @@ layout title contentItems =
                        , div [ class "content" ]
                             ([ h1 [] [ text title ] ] ++ contentHtml)
                        , footer
-                       , Elmstatic.stylesheet "/styles.css"
+                       , Elmstatic.stylesheet "/snortingcode/styles.css"
                        , Styles.styles
                        ]
 

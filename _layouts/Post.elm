@@ -11,7 +11,7 @@ tagsToHtml : List String -> List (Html Never)
 tagsToHtml tags =
     let
         tagLink tag =
-            "/tags/" ++ String.toLower tag
+            "/snortingcode/tags/" ++ String.toLower tag
 
         linkify tag =
             a [ href <| tagLink tag ] [ text tag ]
