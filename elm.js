@@ -5627,7 +5627,7 @@ var author$project$Page$header = _List_fromArray(
 									]),
 								_List_fromArray(
 									[
-										elm$html$Html$text('Posts')
+										elm$html$Html$text('Articles')
 									]))
 							])),
 						A2(

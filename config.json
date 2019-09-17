@@ -1,14 +1,14 @@
 {
     "siteTitle": "SnortingCode",
-    "outputDir": "docs",
+    "outputDir": "docs/snortingcode",
     "copy": {
-        "/posts": "/snortingcode"
+        "/posts": "/"
     },
     "feed": {
         "title": "SnortingCode",
         "description": "Random tech (and other) stuff",
         "id": "https://snortingcode.com",
-        "link": "https://example.com/posts",
+        "link": "https://prasoonj.github.io/snortingcode/posts",
         "image": "https://example.com/img/logo.png",
         "copyright": "Copyright: GPL",
         "language": "en",

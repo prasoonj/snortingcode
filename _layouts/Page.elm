@@ -47,7 +47,7 @@ header =
         [ ul []
             [ li []
                 [ a [ href "/snortingcode/posts" ]
-                    [ text "Posts" ]
+                    [ text "Articles" ]
                 ]
             , li []
                 [ a [ href "/snortingcode/about" ]
