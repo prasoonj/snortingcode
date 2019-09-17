@@ -4,7 +4,7 @@
         <title>SnortingCode</title>
         <link>https://prasoonj.github.io/snortingcode/posts</link>
         <description>Random tech (and other) stuff</description>
-        <lastBuildDate>Tue, 17 Sep 2019 12:41:04 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Sep 2019 12:47:09 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Elmstatic</generator>
         <language>en</language>
@@ -57,16 +57,16 @@
             <pubDate>Sat, 30 Mar 2019 00:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[Framing The Debate Right]]></title>
-            <link>https://prasoonj.github.io/snortingcode/posts/2019-08-17--framing-the-debate-right</link>
-            <guid>https://prasoonj.github.io/snortingcode/posts/2019-08-17--framing-the-debate-right</guid>
-            <pubDate>Sat, 17 Aug 2019 00:00:00 GMT</pubDate>
-        </item>
-        <item>
             <title><![CDATA[I Am The Admin Here (You are my bit*h!)]]></title>
             <link>https://prasoonj.github.io/snortingcode/posts/2019-08-23-online-communities-as-property</link>
             <guid>https://prasoonj.github.io/snortingcode/posts/2019-08-23-online-communities-as-property</guid>
             <pubDate>Fri, 23 Aug 2019 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Framing The Debate Right]]></title>
+            <link>https://prasoonj.github.io/snortingcode/posts/2019-09-17--framing-the-debate-right</link>
+            <guid>https://prasoonj.github.io/snortingcode/posts/2019-09-17--framing-the-debate-right</guid>
+            <pubDate>Tue, 17 Sep 2019 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
