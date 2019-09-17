@@ -2,7 +2,7 @@
     "siteTitle": "SnortingCode",
     "outputDir": "docs",
     "copy": {
-        "/posts": "/"
+        "/posts": "/snortingcode"
     },
     "feed": {
         "title": "SnortingCode",
