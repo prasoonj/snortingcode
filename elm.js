@@ -11229,6 +11229,7 @@ var author$project$ElmMarkup$styledText = F2(
 					elm$html$Html$text(string)
 				])) : elm$html$Html$text(string);
 	});
+var elm$html$Html$em = _VirtualDom_node('em');
 var mdgriffith$elm_markup$Mark$textToTuple = function (_n0) {
 	var style = _n0.a;
 	var str = _n0.b;
@@ -13018,6 +13019,18 @@ var author$project$ElmMarkup$text = mdgriffith$elm_markup$Mark$textWith(
 				function (str) {
 					return A2(
 						elm$html$Html$code,
+						_List_Nil,
+						_List_fromArray(
+							[
+								elm$html$Html$text(str)
+							]));
+				}),
+				A2(
+				mdgriffith$elm_markup$Mark$verbatim,
+				'em',
+				function (str) {
+					return A2(
+						elm$html$Html$em,
 						_List_Nil,
 						_List_fromArray(
 							[

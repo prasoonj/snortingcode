@@ -59,6 +59,10 @@ text =
                 (\str ->
                     Html.code [] [ Html.text str ]
                 )
+            , Mark.verbatim "em"
+                (\str ->
+                    Html.em [] [ Html.text str ]
+                )
             ]
         }
 
