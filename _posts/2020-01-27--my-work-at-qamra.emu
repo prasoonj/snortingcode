@@ -1,0 +1,31 @@
+|> Metadata
+    title = My work at QAMRA
+    tags = archive, queer, technology
+
+|> H3
+    QAMRA - Queer Archive for Memory Reflexion and Activism
+
+If you've not heard about QAMRA yet, it is because they are not quite open to public so far. Currently, it is a small archive that has set shop in a quiant neighbourhood of Bangalore, hoping to open its eyes to the world sometime later this year. 
+
+|> H3
+    My engagement
+
+Last year, I was trying to position myself in Bangalore for a month so that I could take bouldering classes but, ended up spending close to about 7 months at the archive instead. My initial task was just to assist with their website building/hosting activities which was being designed by someone else. That expanded into nothing short of a serious affair which is continuing to drive my daily coding hours today.
+
+
+I'm expected to write a report expanding on my work at QAMRA for their annual review. Since I'm also looking for people to contribute to the suite of applications I'm building (a subset of which would be used by QAMRA), I thought it would be better if I wrote down a blog post here.
+
+(Primarily for the benefit of the review committee) here's the list tasks that I was involved in, during the 7 months at QAMRA:
+|> List
+    1. `Coordination with K for the archive's website`: My contribution was limited to setting up of the communication strategy, contact lists, marketing automation capabilities for the newsletter that would be signed up for via the website, and testing the website before and after launch.
+    -- `Archiving tech-space research`: As the in-house techi, my role was to understand the technology that enables archiving, research the standards and protocols for complianace, research existing solutions that other similar archives are using and distill a set of best-practices that could be employed for QAMRA.
+    -- `Setting up basic/fast solution`: As we began our exploration of the archiving technologies in use, we set up a simple online form based cataloging mechanism which continued to evolve as we learnt more about the domain. We later learned that this setup is employed by several new/low budget archives with limited resources and is a good launchpad for serious archving initiatives.
+    -- `The Archival Guide`: If all the literature available on archiving were printed, we would not need a Bolsenaro to chop down the rainforests! To ensure that we have a manageable chunk of reference material at our disposal, we started an online guide that includes the essential and leaves out the unnecessary! It is a living document that is expected to become the (only) resource our volunteers would be required to read before they can become productive. Read (and contribute to) the [Archival Fast Lane, here]{link | url = https://qamra.gitbook.io/archival-guide/}.
+    -- `Requirements Specifications`: We realised that the several existing tools for a small (and sensitive) archive like ours either lack some essential features or are too clunky to be effectively used. We believe that this might be an opportunity to write our own set of tools and contribute to the archiving community. With this goal in mind, we began to write the requirement specifications document for the product that we were envisaging. This document can be found here: [Software Requirements Specifications]{link | url = https://github.com/qamra-archive/QORE/wiki/Software-Requirement-Specification}
+    -- `QORE APIs`: The core application that would form the bedrock of the archiving toolset is under active development. It is a scala based application that exposes GraphQL APIs and would use graph based databases for persisting the metadata. The state of this application can be traced here: [QORE]{link | url = https://notabug.org/prasoon/QORE} Please check the contribution section to read more about how you can become part of this journey. (We moved to notabug after Microsoft banned developers from USA embargoed countries from using Github.) It is part of a bigger vision that I have around personal archiving but solves the most immediate problem that QAMRA has as an archive - metadata creation//persistance. This application uses the latest [EAD3 specifications from The Library of Congress]{ link | url = https://www.loc.gov/ead/EAD3taglib/index.html }
+    -- `Anansi` : Anansi is the frontend application that presents the Encoded Archival Document (EAD) in a human readable format. This is an experimental project but, is taking good shape as I explore Elm-lang (and fall in love with it) more!
+
+|> H3
+    Open Source from bottom up!
+
+All the projects, documentation, code, collaboration presented here is Open Source with the [GPL3 license]{link | url = https://www.gnu.org/licenses/gpl-3.0.en.html}: The code would remain free for use, modification, derivation at all times, any derived product needs to pass this "freedom" to their users.

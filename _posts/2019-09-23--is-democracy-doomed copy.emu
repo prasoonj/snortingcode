@@ -1,0 +1,30 @@
+|> Metadata
+    title = Is Democracy Doomed?
+    tags = democracy 
+
+|> H3
+    "The complexity of a problem defines (restricts) the solution space.
+
+A problem that subsits in linear order is typically not very hard. Minimal resources can be employed to arrive at an accurate solution in linear time. The solutions for such problems are often trivial even without the use of modern computing tools. Several (isomorphic) solutions (procedures) exists that terminate in finite time, making the solution feasible. 
+
+As the complexity of the problem increases, the solution space constricts, eventually resulting in an intractable problem. This is not a lack of understanding of the problem. On the contrary, a solid understanding of a complex problem requires that any solution that is offered comes with an honest caveat that the solution could only be an approximation.
+
+|> H3
+    Network analysis := Human behaviour
+
+Economics, as seen in academia in the least, is the study of human behaviour. Sound economic policies (ought to) result in productive human behaviour, unsound economic policies result in human suffering, ecological disasters and, as is getting increasingly evident, existential crisis. With such far reaching effects, economics, one might think, might be at the frontiers of problem solving. If the state of human existence is any evidence, Economics is hardly anything but, a cherry-picking of dogmas that were designed to perpetuate economic injustice, class differences and, privilege.
+
+In its attempt to predict human behaviour and device policies that `nudge` the population to a `desired state`, the tool of choice that economists use is quite simply "over simplification" of network effects that govern human behaviour and 
+
+
+When attempting to find the solution space for highly complex problems, 2 things need to be understood:
+|> List
+    1. `True` solution might not exist: As limiting as it might sound to the uninitiated, certain problems just don't have a solution that can be obtained in an acceptable space-time limit.
+    -- Partial solutions or approximations of solutions could exist: These approximations are in most cases `good enough` to be worth an exploration although, care needs to be taken while interpreting these solutions, especially when integrating them into a bigger body of deducible collection of solutions. 
+
+|> H3
+    Why is network analysis (so) hard?
+
+The answer might not surprise you - it's because things are connected! Several mathematical tools rely on an assuption that the system under study is a closed system. This `initial condition` has far reaching effects. In a closed system, mutations in the state of an entity are completely determined by the set of initial conditions if one has access to the rules of interaction between all the entities that this system under study constitutes. 
+
+As more nodes participate in this closes system, under the assumption that they have a linear relationship with each other within the system, the system get predictably more complex. 
