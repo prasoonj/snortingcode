@@ -1,6 +1,6 @@
 {
     "siteTitle": "SnortingCode",
-    "outputDir": "docs/snortingcode",
+    "outputDir": "docs",
     "copy": {
         "/posts": "/"
     },
