@@ -1,0 +1,166 @@
+<!doctype html><html><head><title>Imagining complex user interfaces | SnortingCode</title><meta charset="utf-8"><script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.1/highlight.min.js"></script><script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.1/languages/elm.min.js"></script><script>hljs.initHighlightingOnLoad();</script><link href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.1/styles/default.min.css" rel="stylesheet" type="text/css"><link href="//fonts.googleapis.com/css?family=Open+Sans|Proza+Libre|Inconsolata" rel="stylesheet" type="text/css"></head><body><div class="header-logo"><img alt="Author's blog" src="/snortingcode/img/logo_.png" width="100"></div><div class="navigation"><ul><li><a href="/snortingcode/posts">Articles</a></li><li><a href="/snortingcode/about">About</a></li><li><a href="/snortingcode/contact">Contact</a></li></ul></div><div class="sidebar"></div><div class="sidebar2"></div><div class="content"><h1>Imagining complex user interfaces</h1><div class="post-metadata"><span>2021-03-27</span><span>•</span><a href="/snortingcode/tags/design">design</a><a href="/snortingcode/tags/ui">UI</a><a href="/snortingcode/tags/cognition">cognition</a></div><article><h1>Complex systems design</h1><p>Complexity of a system is not necessarily the innate property of an isolated system itself but, arises as a result of its interaction with other systems, most significantly, the human cognition and its limits. As an example, human language is a logical system with a prohibitively complex design nevertheless, the isomorphic synergy it has with human cognition makes it easily accessible to every human mind with defect free language centers of the brain (broca and wernikie). Designing complex systems is never a design goal for a project! Design of any system with a tangible human use must target complexity reduction.</p><p>Assuming that all complex systems result from composition of less complex sub-systems, each branching of a linear flow adds a factor to the complexity of the whole which could grow exponentially with every branching. In software development, we affectionately call this the _cyclomatic complexity_ which is applied to every small piece of the whole system (each function or a block of code) to assess the quality of code. But, complexity is not limited to abstract programming constructs that live in the virtual machine or flow through networks of cables. Complexity often spills over to the User Interface, making the problems like _entity relationship mapping_, _component architecture_, _systems architecture_ worth a good deal of attention by the team working on a project.</p><h2>The neurological underpinning of complexity</h2><p>Miller’s seminal paper on the <a href="http://psychclassics.yorku.ca/Miller/">limits of capacity for processing information</a>, hints at the magical number (or magical spell!) of 7 plus or minus 2 - the number of _objects_ a human can hold in the short-term memory. This magical number is dependent on several factors like the type of objects being stored (numbers, characters, words, images), _chunking_ of the information presented to the subject, familiarity with categories of the chunks (ubiquitous langauge), etc.</p><p>The exact number can be contested based on the context of the problem being solved and the motivations of the test subjects but, it is important to understand that there is such a limit on human cognition which needs to be taken into consideration when designing any system that interacts with humans either as end-users or even as maintainers of repeatable functionality provided by the system. _Complexity reduction_, then, is not a lofty abstract aspiration for a project but, a very real physical reality that cannot be ignored.</p><h2>Primed for distraction</h2><p>Most popular user applications in the “social” space today are designed for distraction since they are in the business of _creating uninformed customers who would make irrational choices_. It is no surprise that most of these rely heavily on visual information sharing since a text based system needs a relatively larger attention span. I like to call this the “bumper sticker wisdom” information age - short, unconnected pieces of information that gains acceptance not due to the superiority of their argument but, due to the frequency of their appearance, ease of propagation. A Facebook _timeline_ might appear to be a fairly uncomplicated construct, scrolling through stories appearing on a mobile screen does seem to present a linear narrative but, the fact is that there is unprecedented complexity hidden behind this simple construct. First thing to understand is that there is no narrative whatsoever other than the _personalization bubble_ that each user is trapped inside. In the absence of any linear narrative, the system presents a barrage of singular nodes of information that overwhelm the working memory of the user, obliterates their cognitive capacity and leave them aggitated, confused but, overall, quite entertained. Entertainment as a goal works well for the _social media_ since they are in the business of selling their user’s screen-time to their customers. This entertainment nothingness, combined with information bubbles creates a generation with “_all action and no thought_” backing those actions - the results of this complex information system are evident in the rupture of the social fabric of the world we live in.</p><h2>Visual programming and the Deutsch limit</h2><h3>The problem with visual programming is that you cannot have more than 50 visual primitives on the screen at the same time.</h3><p><a href="https://en.wikipedia.org/wiki/Deutsch_limit">The Deutsch limit</a>, although targetting a very esoteric domain of visual programming, can help in understanding the limits of visual elements in presenting complex narratives. When an end-user navigates their way through a user interface, the story that their mind creates from the artifacts presented to them is a function of their ability to “hold” each _chunk_ of visual information in their working memory. The ability of the interface to “show” these connections on the screen does not necessarily aid the user’s cognition. This is especially true for problem domains where each visual node and<span class="italic">or each connecting edge expects the user to cache some metadata (or a meta-cognitive theme), not directly (and very evidently) presented by the visual elements. For instance, 2 images connected to each other via a _relationship_ might seem like a simple construct but, the information density of an image can be quite high. Connecting (and presenting on the same screen) each new visual elements adds complexity to the narrative that certainly makes the interaction _entertaining_ and _engaging_ but, fails to create lasting memories. A complex arrangement of UI elements could look like a work of art but, its utility is questionable.</span></p><h2>Testing for complexity</h2><p>If you are convinced that complicated systems are ineffective, testing for complexity becomes an important design goal. There are well-defined methods of testing code complexity. The code base can be easily tested for cyclomatic complexity with a number of automated testing and code quality tools. Several type systems enable code production that has low complexity due to the composability they provide. Algorithms can be tested for space and time complexity which is a way to talk about the “cognitive abilities” and “working memory” of a machine!</p><p>But, testing complexity in user interfaces can be hard! There are several reasons for this:
+1. Designers and developers look at the same screens and interactions everyday! They can easily fail to see that the solution is already too complex for a first-time user who is not exposed to the ubiquitous language of the domain<span class="italic">project (needed for chunking ideas) and is looking at something completely new. Borrowing industry accepted (popular) UI components can avoid this problem for an interface which is not _pathbraking_.
+2. It is difficult to _evolve_ an interface, progressively, with the expanding familiarity of the user interacting with it. Some typical dashboards allow the user to re-arrange the components to suit their needs but, they are nothing more than a </span><a href="https://en.wikipedia.org/wiki/Cache_replacement_policies"><span class="italic">caching strategy</span></a><span class="italic">. How can the system _learn_ that the user can be presented with a more complex screen than the one they saw on their earlier visit?
+3. If the goal is not to distract the user or to keep them trapped in a notification dopamine loop, how does one gauge the effectiveness of the UI? Was the UI able to generate value for the user? Did it make them think? Did it empower their thought process? Did it bring new ideas into their cognitive fold?</span></p><p>A few aspects of the testing strategy are obvious from the above discussion:
+- AB test the UI.
+- Create several different treatement groups.
+- Design surveys that target user understanding of the presented material not conversion or screen time.</p></article></div><div class="footer"><img alt="Author's blog" src="/snortingcode/img/logo_.png" style="float: left; padding-top: 7px" width="75"><div class="link"><svg width="16" height="16" viewbox="0 0 16 16"><path fill="#fff" d="
+M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z
+            "></path></svg><a href="https://github.com/prasoonj">GitHub</a></div><div class="link"><a href="https://www.npmjs.com/package/elmstatic">Created with Elmstatic</a></div></div><link href="/snortingcode/styles.css" rel="stylesheet" type="text/css"><style>body {
+    padding:0px;
+    margin:0px;
+    background-color:#ffffff;
+    color:#363636;
+    font-family:Open Sans, Arial, sans-serif;
+    font-size:18px;
+    line-height:1.4em;
+}
+
+a {
+    color:#348aa7;
+    text-decoration:none;
+}
+
+code {
+    font-family:Inconsolata, monospace;
+}
+
+pre  code {
+    overflow-x:scroll !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:Proza Libre, Helvetica, sans-serif;
+    line-height:1.1em;
+}
+
+h1 {
+    font-size:2.66667em;
+    margin-bottom:2.0202rem;
+}
+
+h2 {
+    font-size:2em;
+    margin-bottom:1.61616rem;
+}
+
+h3 {
+    font-size:1.33333em;
+    margin-bottom:1.21212rem;
+}
+
+h4 {
+    font-size:1.2em;
+    margin-bottom:0.80808rem;
+}
+
+h5, h6 {
+    font-size:1em;
+    margin-bottom:0.60606rem;
+}
+
+p {
+    margin:auto auto 1.5rem;
+}
+
+small {
+    font-size:65%;
+}
+
+.header-logo {
+    padding-top:6px;
+    text-align:center;
+    background-color:#f2fae8;
+}
+
+@media only screen and (min-width: 600px) {
+    .header-logo {
+        text-align:left;
+    border-bottom:2px solid #3c8765;
+    }
+}
+
+.navigation {
+    text-align:center;
+    border-bottom:2px solid #3c8765;
+    background-color:#f2fae8;
+    padding:10px;
+    margin-top:-20px;
+}
+
+@media only screen and (min-width: 600px) {
+    .navigation {
+        margin-top:0px;
+    padding:0px;
+    text-align:right;
+    }
+}
+
+.navigation  ul {
+    margin:0px;
+    padding:0px;
+}
+
+@media only screen and (min-width: 600px) {
+    .navigation  ul {
+        line-height:100px;
+    }
+}
+
+.navigation  li {
+    display:inline-block;
+    margin-right:20px;
+}
+
+.content {
+    max-width:100vw;
+}
+
+.footer {
+    text-align:center;
+    border-top:2px solid #2f4858;
+    background-color:#348aa7;
+    color:#ffffff;
+}
+
+@media only screen and (min-width: 600px) {
+    .footer {
+        line-height:80px;
+    text-align:right;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .footer  .link {
+        display:inline-block;
+    margin-right:20px;
+    }
+}
+
+.footer  a {
+    color:#ffffff;
+    text-decoration:none;
+}
+
+.footer  svg {
+    padding-right:5px;
+    vertical-align:baseline;
+}
+
+.post-metadata {
+    margin-top:-0.5em;
+    margin-bottom:2em;
+}
+
+.post-metadata  a, .post-metadata  span {
+    display:inline-block;
+    margin-right:5px;
+}
+
+.post-metadata  a {
+    border:1px solid #e0e0e0;
+    border-radius:3px;
+    background-color:#f2fae8;
+    padding-left:5px;
+    padding-right:5px;
+}</style></body></html>

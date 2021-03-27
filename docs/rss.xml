@@ -4,7 +4,7 @@
         <title>SnortingCode</title>
         <link>https://prasoonj.github.io/snortingcode/posts</link>
         <description>Random tech (and other) stuff</description>
-        <lastBuildDate>Mon, 27 Jan 2020 13:06:06 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 27 Mar 2021 09:53:21 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Elmstatic</generator>
         <language>en</language>
@@ -37,6 +37,12 @@
             <link>https://prasoonj.github.io/snortingcode/posts/2014-08-26-dumb-users-vs-bad-ux</link>
             <guid>https://prasoonj.github.io/snortingcode/posts/2014-08-26-dumb-users-vs-bad-ux</guid>
             <pubDate>Tue, 26 Aug 2014 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[NoteToSelf >> Always keep your home machine updated!]]></title>
+            <link>https://prasoonj.github.io/snortingcode/posts/2014-09-27-notetoself-always-keep-your-home-machine</link>
+            <guid>https://prasoonj.github.io/snortingcode/posts/2014-09-27-notetoself-always-keep-your-home-machine</guid>
+            <pubDate>Sat, 27 Sep 2014 00:00:00 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Instructions To Set Up GIT User]]></title>
@@ -79,6 +85,12 @@
             <link>https://prasoonj.github.io/snortingcode/posts/2020-01-27--my-work-at-qamra</link>
             <guid>https://prasoonj.github.io/snortingcode/posts/2020-01-27--my-work-at-qamra</guid>
             <pubDate>Mon, 27 Jan 2020 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Imagining complex user interfaces]]></title>
+            <link>https://prasoonj.github.io/snortingcode/posts/2021-03-27--complex-system-design</link>
+            <guid>https://prasoonj.github.io/snortingcode/posts/2021-03-27--complex-system-design</guid>
+            <pubDate>Sat, 27 Mar 2021 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

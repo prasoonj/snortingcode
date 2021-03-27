@@ -1,0 +1,47 @@
+|> Metadata
+    title = Imagining complex user interfaces
+    tags = design UI cognition
+
+|> H1 
+    Complex systems design
+
+Complexity of a system is not necessarily the innate property of an isolated system itself but, arises as a result of its interaction with other systems, most significantly, the human cognition and its limits. As an example, human language is a logical system with a prohibitively complex design nevertheless, the isomorphic synergy it has with human cognition makes it easily accessible to every human mind with defect free language centers of the brain (broca and wernikie). Designing complex systems is never a design goal for a project! Design of any system with a tangible human use must target complexity reduction.
+
+Assuming that all complex systems result from composition of less complex sub-systems, each branching of a linear flow adds a factor to the complexity of the whole which could grow exponentially with every branching. In software development, we affectionately call this the _cyclomatic complexity_ which is applied to every small piece of the whole system (each function or a block of code) to assess the quality of code. But, complexity is not limited to abstract programming constructs that live in the virtual machine or flow through networks of cables. Complexity often spills over to the User Interface, making the problems like _entity relationship mapping_, _component architecture_, _systems architecture_ worth a good deal of attention by the team working on a project.
+
+
+|> H2
+    The neurological underpinning of complexity
+
+Miller's seminal paper on the [limits of capacity for processing information]{link | url=http://psychclassics.yorku.ca/Miller/}, hints at the magical number (or magical spell!) of 7 plus or minus 2 - the number of _objects_ a human can hold in the short-term memory. This magical number is dependent on several factors like the type of objects being stored (numbers, characters, words, images), _chunking_ of the information presented to the subject, familiarity with categories of the chunks (ubiquitous langauge), etc.
+
+The exact number can be contested based on the context of the problem being solved and the motivations of the test subjects but, it is important to understand that there is such a limit on human cognition which needs to be taken into consideration when designing any system that interacts with humans either as end-users or even as maintainers of repeatable functionality provided by the system. _Complexity reduction_, then, is not a lofty abstract aspiration for a project but, a very real physical reality that cannot be ignored.
+
+|> H2
+    Primed for distraction
+
+Most popular user applications in the "social" space today are designed for distraction since they are in the business of _creating uninformed customers who would make irrational choices_. It is no surprise that most of these rely heavily on visual information sharing since a text based system needs a relatively larger attention span. I like to call this the "bumper sticker wisdom" information age - short, unconnected pieces of information that gains acceptance not due to the superiority of their argument but, due to the frequency of their appearance, ease of propagation. A Facebook _timeline_ might appear to be a fairly uncomplicated construct, scrolling through stories appearing on a mobile screen does seem to present a linear narrative but, the fact is that there is unprecedented complexity hidden behind this simple construct. First thing to understand is that there is **no narrative whatsoever** other than the _personalization bubble_ that each user is trapped inside. In the absence of any linear narrative, the system presents a barrage of singular nodes of information that overwhelm the working memory of the user, obliterates their cognitive capacity and leave them aggitated, confused but, overall, quite entertained. Entertainment as a goal works well for the _social media_ since they are in the business of selling their user's screen-time to their customers. This entertainment nothingness, combined with information bubbles creates a generation with "_all action and no thought_" backing those actions - the results of this complex information system are evident in the rupture of the social fabric of the world we live in.
+
+|> H2
+    Visual programming and the Deutsch limit
+
+|> H3
+    The problem with visual programming is that you cannot have more than 50 visual primitives on the screen at the same time.
+
+[The Deutsch limit]{link | url=https://en.wikipedia.org/wiki/Deutsch_limit}, although targetting a very esoteric domain of visual programming, can help in understanding the limits of visual elements in presenting complex narratives. When an end-user navigates their way through a user interface, the story that their mind creates from the artifacts presented to them is a function of their ability to "hold" each _chunk_ of visual information in their working memory. The ability of the interface to "show" these connections on the screen does not necessarily aid the user's cognition. This is especially true for problem domains where each visual node and/or each connecting edge expects the user to cache some metadata (or a meta-cognitive theme), not directly (and very evidently) presented by the visual elements. For instance, 2 images connected to each other via a _relationship_ might seem like a simple construct but, the information density of an image can be quite high. Connecting (and presenting on the same screen) each new visual elements adds complexity to the narrative that certainly makes the interaction _entertaining_ and _engaging_ but, fails to create lasting memories. A complex arrangement of UI elements could look like a work of art but, its utility is questionable.
+
+|> H2
+    Testing for complexity
+
+If you are convinced that complicated systems are ineffective, testing for complexity becomes an important design goal. There are well-defined methods of testing code complexity. The code base can be easily tested for cyclomatic complexity with a number of automated testing and code quality tools. Several type systems enable code production that has low complexity due to the composability they provide. Algorithms can be tested for space and time complexity which is a way to talk about the "cognitive abilities" and "working memory" of a machine! 
+
+But, testing complexity in user interfaces can be hard! There are several reasons for this:
+1. Designers and developers look at the same screens and interactions everyday! They can easily fail to see that the solution is already too complex for a first-time user who is not exposed to the ubiquitous language of the domain/project (needed for chunking ideas) and is looking at something completely new. Borrowing industry accepted (popular) UI components can avoid this problem for an interface which is not _pathbraking_.
+2. It is difficult to _evolve_ an interface, progressively, with the expanding familiarity of the user interacting with it. Some typical dashboards allow the user to re-arrange the components to suit their needs but, they are nothing more than a [caching strategy]{link | url=https://en.wikipedia.org/wiki/Cache_replacement_policies}. How can the system _learn_ that the user can be presented with a more complex screen than the one they saw on their earlier visit?
+3. If the goal is not to distract the user or to keep them trapped in a notification dopamine loop, how does one gauge the effectiveness of the UI? Was the UI able to generate value for the user? Did it make them think? Did it empower their thought process? Did it bring new ideas into their cognitive fold?
+
+A few aspects of the testing strategy are obvious from the above discussion:
+- AB test the UI.
+- Create several different treatement groups.
+- Design surveys that target user understanding of the presented material not conversion or screen time.
+
